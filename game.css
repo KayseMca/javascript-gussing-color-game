@@ -1,0 +1,135 @@
+
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	text-align: center;
+	font-family: "Raleway";
+	font-size:bold;
+	background-color:black;
+	position: relative;
+
+	
+}
+.square{
+	width: 30%;
+	float: left;
+	padding-bottom: 30%;
+	margin:1.66%;
+	background-color: purple;
+	border-radius: 6.5%;
+	
+	
+}
+
+
+.container{
+	width:50%;
+	margin:0 auto;
+	background-color: white
+	
+}
+.head{
+	margin-top: 10px;
+	padding: 15px;
+	background-color: steelblue;
+	color: white;
+	font-family: "montserrat";
+}
+
+
+/*ul{
+	color:blue;
+	font-style: bold;
+}
+li:hover{
+	background-color: blue;
+	color: white;
+}*/
+p{
+	display: inline;
+	color: blue;
+	font-size: 18px;
+	font:bold;
+	height: 0px;
+}
+button{
+	float: center-left;
+	color: steelblue;
+	border: none;
+	background:none;
+	height: 100%;
+	font-weight: 700;
+	font-size: inherit;
+	letter-spacing: 1px;
+	transition: all 1.0s;
+
+}
+#str{
+	background-color: white;
+	position: relative;
+	height: 25px;
+	width: 100%;
+	
+	
+}
+
+#easy, #hard{
+	
+	/*float:right;*/
+	margin-right:10px;
+	/*width: 40%;*/
+}
+#empty{
+	display: inline-block;
+	width: 8%;
+}
+
+#try{
+	display: inline-block;
+	
+	width: 2%;
+}
+.selectButton{
+	background-color: blue;
+	color: white;
+}
+
+#guest{
+	font-size: 400%;
+	text-transform: uppercase;
+}
+button:hover{
+	background-color: steelblue;
+	color: white;
+	
+}
+
+
+.midig{
+	border: 2px dotted #5CF90D;
+	width: 15%;
+	float: right;
+	margin:200px 50px;
+	animation-duration: animate;
+	animation: animate 2s infinite;
+	border-radius: 12%;
+}
+
+
+@keyframes animate{
+	0%{
+		background-color: green;
+		top: 0px;
+		}
+	25%{
+		background-color: green;
+		top: 25px;
+	}
+	50%{
+		background-color:#1AE8D3 }
+	100%{
+		background-color: yellow;
+	}
+}
